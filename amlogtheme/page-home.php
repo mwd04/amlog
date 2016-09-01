@@ -7,6 +7,7 @@ Template Name: Home Page
 
 get_header('home'); ?>
 
+<script src="<?php echo site_url( "wp-content/themes/portfolio/js/jquery.lazyload.min.js" ); ?>"></script>
 
     <section id="home-hero" class="hero-bg" style="background: url('<?php echo get_theme_mod( 'home_bg_image' ); ?>') 50% 0 no-repeat;" data-speed="8" data-type="background"> 
 

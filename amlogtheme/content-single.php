@@ -21,7 +21,7 @@
     	<div class="col-1-1">
 			<div class="entry-content">
     
-   				<?php the_post_thumbnail( 'full', array( 'class' => 'single-thumb' ) ); ?>
+   				<?php //the_post_thumbnail( 'full', array( 'class' => 'single-thumb' ) ); ?>
 				<?php the_content(); ?>
 				<?php
 					wp_link_pages( array(

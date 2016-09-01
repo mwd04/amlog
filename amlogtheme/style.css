@@ -927,20 +927,20 @@ a:active {
 }
 
 .default-page, .single-blog-post {
-	padding-top: 120px;
+	padding-top: 100px;
 }
 
 .entry-title, .page-title {
 	color: #33384a;
-	font-size: 6vw;
-	line-height: 5.5vw;
+	font-size: 2.4vw;
+	line-height: 2.5vw;
 }
 .entry-title:after, .page-title:after {
 	border: 4px solid;
 	border-color: #fc5253;
     content: " ";
     display: block;
-    margin: 30px 0 35px;
+    margin: 15px 0 10px;
     width: 100px;
 }
 img.single-thumb {
